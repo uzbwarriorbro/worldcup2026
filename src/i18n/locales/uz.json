@@ -4,7 +4,8 @@
     "matches": "Natijalar",
     "teams": "Jamoalar",
     "facts": "Qiziqarli faktlar",
-    "goals": "Eng chiroyli gollar"
+    "goals": "Eng chiroyli gollar",
+    "mindFacts": "Hayratlanarli faktlar"
   },
   "hero": {
     "badge": "FIFA JAHON CHEMPIONATI",
@@ -76,6 +77,10 @@
     "subtitle": "Turnirning eng yodda qolarli daqiqalari",
     "watch": "Tomosha qilish",
     "minute": "daqiqa"
+  },
+  "mindFacts": {
+    "title": "Hayratlanarli faktlar",
+    "subtitle": "Sizni o'ylantirib qo'yadigan, hayotdagi eng qiziqarli 10 ta fakt"
   },
   "footer": {
     "desc": "Jahon chempionati 2026 haqida shaxsiy fan-sayt. Futbolni yaxshi ko'ruvchilar uchun yaratilgan.",

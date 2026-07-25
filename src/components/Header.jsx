@@ -20,6 +20,7 @@ export default function Header() {
     { to: '/teams', label: t('nav.teams') },
     { to: '/facts', label: t('nav.facts') },
     { to: '/goals', label: t('nav.goals') },
+    { to: '/mind-facts', label: t('nav.mindFacts') },
   ]
 
   return (

@@ -9,6 +9,7 @@ import Teams from './pages/Teams'
 import TeamDetail from './pages/TeamDetail'
 import Facts from './pages/Facts'
 import Goals from './pages/Goals'
+import MindFacts from './pages/MindFacts'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -32,6 +33,7 @@ function App() {
           <Route path="/teams/:teamId" element={<TeamDetail />} />
           <Route path="/facts" element={<Facts />} />
           <Route path="/goals" element={<Goals />} />
+          <Route path="/mind-facts" element={<MindFacts />} />
         </Routes>
       </main>
       <Footer />
