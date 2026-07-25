@@ -33,6 +33,17 @@ export default function GoalCard({ goal, index = 0 }) {
         </div>
         <p className="goal-match">{goal.match[lang] ?? goal.match.uz}</p>
         <p className="goal-desc">{goal.desc[lang] ?? goal.desc.uz}</p>
+
+        <a
+          className="goal-watch-btn"
+          href={`https://www.youtube.com/results?search_query=${encodeURIComponent(
+            `${goal.player} goal World Cup 2026 ${goal.minute}'`
+          )}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="goal-watch-icon">▶</span> {t('goals.watch')}
+        </a>
       </div>
     </motion.div>
   )
