@@ -1,0 +1,70 @@
+.player-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.player-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.player-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1.5px solid var(--line-strong);
+  color: var(--text-hi);
+}
+
+.player-pos {
+  font-size: 10.5px;
+}
+
+.player-name {
+  font-size: 17px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.player-stats {
+  display: flex;
+  gap: 18px;
+}
+
+.p-label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.p-value {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--gold-soft);
+}
+
+.player-club {
+  font-size: 13px;
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.player-bio {
+  font-size: 13.5px;
+  line-height: 1.5;
+}

@@ -1,0 +1,31 @@
+.bg-slideshow {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  background: var(--bg-void);
+}
+
+.bg-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 22%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: scale(1.06);
+  filter: blur(1px) brightness(0.85) saturate(1.2) contrast(1.05);
+  transition: opacity 2.2s ease, transform 9s ease;
+}
+
+.bg-slide.is-active {
+  opacity: 1;
+  transform: scale(1.13);
+}
+
+.bg-slideshow-scrim {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 100% at 50% 0%, rgba(10, 15, 28, 0.25) 0%, rgba(5, 7, 13, 0.62) 60%, rgba(5, 7, 13, 0.88) 100%),
+    linear-gradient(180deg, rgba(5, 7, 13, 0.25) 0%, rgba(5, 7, 13, 0.55) 100%);
+}

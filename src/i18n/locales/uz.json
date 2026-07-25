@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "matches": "Natijalar",
+    "teams": "Jamoalar",
+    "facts": "Qiziqarli faktlar",
+    "goals": "Eng chiroyli gollar"
+  },
+  "hero": {
+    "badge": "FIFA JAHON CHEMPIONATI",
+    "title1": "JAHON",
+    "title2": "CHEMPIONATI",
+    "subtitle": "AQSH • Kanada • Meksika",
+    "desc": "48 ta jamoa, bitta orzu. Futbol tarixidagi eng katta bayramga xush kelibsiz.",
+    "cta1": "Natijalarni ko'rish",
+    "cta2": "Jamoalar bilan tanishish",
+    "stat1": "Jamoalar",
+    "stat2": "Stadionlar",
+    "stat3": "O'yinlar",
+    "stat4": "Shahar"
+  },
+  "live": {
+    "badge": "JONLI",
+    "title": "Jonli natijalar",
+    "subtitle": "O'yinlar real vaqt rejimida yangilanib boradi",
+    "loading": "Ma'lumotlar yuklanmoqda...",
+    "error": "API ma'lumotlarini olib bo'lmadi, namunaviy ma'lumotlar ko'rsatilmoqda",
+    "updated": "Yangilandi",
+    "live_now": "JONLI",
+    "finished": "Yakunlandi",
+    "scheduled": "Rejalashtirilgan",
+    "group": "Guruh",
+    "groups": "Guruhlar",
+    "team": "Jamoa",
+    "played": "O",
+    "win": "G",
+    "draw": "D",
+    "loss": "M",
+    "gf": "UG",
+    "ga": "UO",
+    "gd": "GO",
+    "pts": "Ochko"
+  },
+  "teams": {
+    "title": "Jamoalar",
+    "subtitle": "2026-yilgi jahon chempionatining eng kuchli terma jamoalari",
+    "viewSquad": "Tarkibni ko'rish",
+    "coach": "Bosh murabbiy",
+    "ranking": "FIFA reytingi",
+    "titles": "Chempionliklar",
+    "confederation": "Konfederatsiya",
+    "about": "Jamoa haqida",
+    "squad": "O'yinchilar tarkibi",
+    "keyPlayer": "Asosiy yulduz",
+    "back": "Orqaga"
+  },
+  "players": {
+    "position": "Pozitsiya",
+    "age": "Yosh",
+    "club": "Klub",
+    "caps": "O'yinlar",
+    "goals": "Gollar",
+    "positions": {
+      "GK": "Darvozabon",
+      "DF": "Himoyachi",
+      "MF": "Yarim himoyachi",
+      "FW": "Hujumchi"
+    }
+  },
+  "facts": {
+    "title": "Qiziqarli faktlar",
+    "subtitle": "2026-yilgi Jahon chempionati haqida bilmagan narsalaringiz"
+  },
+  "goals": {
+    "title": "Eng chiroyli gollar",
+    "subtitle": "Turnirning eng yodda qolarli daqiqalari",
+    "watch": "Tomosha qilish",
+    "minute": "daqiqa"
+  },
+  "footer": {
+    "desc": "Jahon chempionati 2026 haqida shaxsiy fan-sayt. Futbolni yaxshi ko'ruvchilar uchun yaratilgan.",
+    "madeWith": "Futbolga bo'lgan muhabbat bilan yaratildi",
+    "rights": "Barcha huquqlar himoyalangan"
+  },
+  "common": {
+    "vs": "VS",
+    "today": "Bugun",
+    "loading": "Yuklanmoqda..."
+  }
+}

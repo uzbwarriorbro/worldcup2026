@@ -1,0 +1,25 @@
+.fact-card {
+  padding: 28px 24px;
+  height: 100%;
+  transition: border-color 0.25s ease;
+}
+
+.fact-card:hover {
+  border-color: rgba(255, 210, 63, 0.35);
+}
+
+.fact-icon {
+  font-size: 36px;
+  margin-bottom: 14px;
+}
+
+.fact-title {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+}
+
+.fact-text {
+  font-size: 14px;
+  line-height: 1.6;
+}

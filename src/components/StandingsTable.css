@@ -1,0 +1,111 @@
+.standings-table {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.standings-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.standings-group-badge {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  background: rgba(255, 210, 63, 0.1);
+  border: 1px solid rgba(255, 210, 63, 0.3);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 480px;
+}
+
+thead th {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  padding: 8px 6px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+}
+
+th.col-team,
+td.col-team {
+  text-align: left;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px 6px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+  color: var(--text-mid);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr.is-qualified td.col-team .rank {
+  background: var(--grad-green);
+  color: #04150e;
+}
+
+.col-team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 170px;
+}
+
+.rank {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 11px;
+  font-family: var(--font-display);
+  color: var(--text-mid);
+  flex-shrink: 0;
+}
+
+.flag.flag-icon {
+  font-size: 18px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+img.flag {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2px;
+  flex-shrink: 0;
+}
+
+.name {
+  color: var(--text-hi);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.col-pts {
+  color: var(--text-hi) !important;
+  font-family: var(--font-display);
+  font-weight: 800 !important;
+}

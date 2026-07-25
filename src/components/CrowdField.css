@@ -1,0 +1,42 @@
+.crowd-field {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 30px 4%;
+  transform: perspective(700px) rotateX(35deg) scale(1.15);
+  transform-origin: bottom center;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.crowd-row {
+  position: relative;
+  height: 6px;
+  transform: translateY(calc(var(--row) * -1px));
+}
+
+.crowd-dot {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--dot-color);
+  top: 0;
+  animation-name: crowd-flicker;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  box-shadow: 0 0 4px var(--dot-color);
+}
+
+@keyframes crowd-flicker {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-3px) scale(1.3);
+  }
+}

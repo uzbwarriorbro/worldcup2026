@@ -1,0 +1,18 @@
+.matches-page .match-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.standings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+@media (max-width: 900px) {
+  .standings-grid,
+  .matches-page .match-grid {
+    grid-template-columns: 1fr;
+  }
+}
