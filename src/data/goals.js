@@ -47,7 +47,7 @@ export const goals = [
       uz: "O'yin oxirida urilgan dramatik g'alaba goli — Argentinani finalga olib chiqdi.",
       ru: 'Драматичный победный гол в концовке матча вывел Аргентину в финал.',
     },
-    color: '#4a90d9',
+    color: '#75aadb',
   },
   {
     id: 5,
