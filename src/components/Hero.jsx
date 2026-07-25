@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import CrowdField from './CrowdField'
 import ConfettiBurst from './ConfettiBurst'
 import ReactionBar from './ReactionBar'
+import SnakeDecor from './SnakeDecor'
 import './Hero.css'
 
 export default function Hero() {
@@ -23,6 +24,7 @@ export default function Hero() {
       <div className="hero-stadium">
         <CrowdField />
         <div className="pitch-glow" />
+        <SnakeDecor />
       </div>
       <ConfettiBurst count={26} />
       <ReactionBar />
